@@ -2,8 +2,15 @@ body {
     background-color: #D2FEEB;
     width: 200px;
     border-radius: 10px;
+    font-family: "avenir light";
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    float: right;
+    border: none;
+    font-family: avenir;
 }

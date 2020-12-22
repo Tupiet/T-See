@@ -27,7 +27,7 @@ saveItem.onclick = function(element) {
 };
 
 function pushingData(value, key) {
-  var atags = document.createElement("a");
+    var atags = document.createElement("a");
     atags.href = value;
     atags.innerHTML = key;
     atags.target = "_black";
@@ -46,5 +46,6 @@ function pushingData(value, key) {
     document.getElementById('mydiv').append(newButton);
     
     var breakLine = document.createElement("br");
+    document.getElementById('mydiv').append(breakLine);
     document.getElementById('mydiv').append(breakLine);
 };
